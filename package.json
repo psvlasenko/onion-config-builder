@@ -1,5 +1,4 @@
 {
-  "private": true,
   "author": "Pavel Vlasenko psvlasenko@gmail.com",
   "name": "@onion/config-builder",
   "version": "0.0.1",
@@ -7,6 +6,11 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psvlasenko/onion-config-builder.git"
+  },
+  "homepage": "https://github.com/psvlasenko/onion-config-builder",
   "scripts": {
     "build": "tsc --build --clean && tsc",
     "test": "node --test --test-reporter=spec dist/*.test.js"
