@@ -1,0 +1,10 @@
+.cache
+node_modules
+
+dist
+
+.code
+.vscode
+.DS_Store
+**/s3_scorm
+.vscode

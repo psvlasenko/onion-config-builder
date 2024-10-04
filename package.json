@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "author": "Pavel Vlasenko psvlasenko@gmail.com",
+  "name": "@onion/config-builder",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build --clean && tsc",
+    "test": "node --test --test-reporter=spec dist/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "5.6.2",
+    "@types/node": "20.13.0"
+  }
+}
